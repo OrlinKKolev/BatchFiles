@@ -1,6 +1,6 @@
-chdir /d <SOURCE FOLDER>"C:\Users\Desktop\temp\Athens Corian"
+chdir /d <SOURCE FOLDER>
 echo off
-for /r . %%g in (*) do echo %%~nxg >> <DESTINATION>"C:\Users\Desktop\temp\test.txt"
+for /r . %%g in (*) do echo %%~nxg >> <DESTINATION>
 
 ::this batch file lists all files from selected <SOURCE FOLDER>
 ::and writes them in .txt at the designated <DESTINATION>
